@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    width: 100%;
+}
+
+.container {
+    display: flex;
+}
+
+.container_01 {
+    padding: 3rem;
+    background-color: #f0f0f0;
+    height: 100vh;
+    text-align: center;
+}
+
+.container_01 img {
+    width: 8rem;
+}
+
+.container_01 h1 {
+    margin: 0.6rem 0 0.6rem 0;
+}
+
+.container_01 .pageLinks {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.container_01 .pageLinks a {
+    margin: 0.6rem 0 0.6rem 0;
+    text-decoration: none;
+    text-align: center;
+    font-weight: bold;
+    color: #3b1063;
+}
+
+.container_01 .pageLinks a:hover {
+    color: #8a2be2;
+}
+
+
+.container_02 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+}
+
+
+#title {
+    width: 100%;
+    padding: 0.6rem;
+    margin: 0.6rem;
+    outline: none;
+    font-size: 1.4rem;
+    border: 0.1rem solid #9c9c9c;
+}
+
+#content {
+    width: 100%;
+    height: 80%;
+    padding: 0.6rem;
+    margin: 0.6rem;
+    outline: none;
+    font-size: 1.4rem;
+    border: 0.1rem solid #9c9c9c;
+}
+
+#btn01 {
+    width: 100%;
+    padding: 0.6rem;
+    margin: 0.6rem;
+    outline: none;
+    border: none;
+    background-color: #9c9c9c;
+    color: #000000;
+    cursor: pointer;
+    font-size: 1.4rem;
+}
+
+#btn01:hover {
+    background-color: #b8b5b5;
+}
+
+#input {
+    padding: 0.6rem;
+    outline: none;
+}
+
+.list h1 {
+    margin: 0.6rem 0 0.6rem 0;
+}
+
+.list ul {
+    list-style: none;
+    text-align: center;
+}
+
+.list ul li {
+    padding: 0.6rem;
+    background-color: #f0f0f0;
+    margin: 0.6rem 0 0.6rem 0;
+    text-align: center;
+}
+
+.list ul li a {
+    text-decoration: none;
+    text-align: center;
+    font-weight: bold;
+    color: #3b1063;
+    font-size: 1.6rem;
+}
+
+.list ul li a:hover {
+    color: #8a2be2;
+}
+
+.container_02 p {
+    line-height: 2.6rem;
+    font-size: 1.5rem;
+}
+
+.container_02 li {
+    line-height: 2.6rem;
+    font-size: 1.5rem;
+}
+
+#edit {
+    text-decoration: none;
+    color: #000000;
+}
